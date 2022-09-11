@@ -36,6 +36,7 @@ public class PlayerController : MonoBehaviour
     void SetCountText()
     {
         countText.text = "Count: " + count.ToString();
+        if()
     }
 
     void FixedUpdate()
