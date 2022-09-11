@@ -34,6 +34,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if(other.gameObject.CompareTag(""))
         other.gameObject.SetActive(false);
     }
 }
