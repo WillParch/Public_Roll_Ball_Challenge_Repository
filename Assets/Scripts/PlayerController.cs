@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
         Vector2 movementVector = movementValue.Get<Vector2>();
         
         
-
+    }        
     void FixedUpdate()
     {
         rb.AddForce(movementVector);
