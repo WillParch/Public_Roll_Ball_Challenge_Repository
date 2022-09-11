@@ -11,5 +11,8 @@ public class PlayerController : MonoBehaviour
         
     }
 
-    void OnMove()
+    void OnMove() 
+    {
+        // Function body
+    }
 }
