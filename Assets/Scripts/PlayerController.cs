@@ -10,4 +10,6 @@ public class PlayerController : MonoBehaviour
     {
         
     }
+
+    void OnMove()
 }
