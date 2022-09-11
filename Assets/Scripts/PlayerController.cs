@@ -34,6 +34,6 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        other.gameObject.SetActive()
+        other.gameObject.SetActive(false);
     }
 }
