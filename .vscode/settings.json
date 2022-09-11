@@ -68,5 +68,7 @@
   "files.autoSave": "afterDelay",
   "git.autoStash": true,
   "git.autofetch": true,
-  "git.requireGitUserConfig": false
+  "git.requireGitUserConfig": false,
+  "gitdoc.autoCommitDelay": 15000,
+  "gitdoc.autoPushDelay": 10000
 }
