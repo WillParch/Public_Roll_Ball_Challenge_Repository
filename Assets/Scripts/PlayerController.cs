@@ -29,7 +29,10 @@ public class PlayerController : MonoBehaviour
         movementY = movementVector.y;
     }
 
-    void 
+    void SetCountText() 
+    {
+
+    }
 
     void FixedUpdate()
     {
