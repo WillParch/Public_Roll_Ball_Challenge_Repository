@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour
     void SetCountText()
     {
         countText.text = "Count: " + count.ToString();
-        if()
+        if(count >= 12)
     }
 
     void FixedUpdate()
