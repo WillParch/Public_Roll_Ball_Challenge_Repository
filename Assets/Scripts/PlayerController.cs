@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour
         movementY = movementVector.y;
     }
 
-    void SetCountText() 
+    void SetCountText()
     {
         countText.text = "Count: " + count.ToString();
     }
@@ -50,6 +50,8 @@ public class PlayerController : MonoBehaviour
         {
             other.gameObject.SetActive(false);
             count = count + 1;
+
+            SetCountText();
         }
     }
 }
