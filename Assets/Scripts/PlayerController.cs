@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour
 
     void SetCountText() 
     {
-
+        countText.text
     }
 
     void FixedUpdate()
