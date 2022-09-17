@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody rb;
     private int count;
+    private int lives;
     private float movementX;
     private float movementY;
 
