@@ -59,5 +59,6 @@ public class PlayerController : MonoBehaviour
 
             SetCountText();
         }
+        else if (other.gameObject.CompareTag("Enemy"))
     }
 }
