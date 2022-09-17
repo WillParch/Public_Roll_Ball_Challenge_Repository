@@ -34,6 +34,8 @@ public class PlayerController : MonoBehaviour
         movementY = movementVector.y;
     }
 
+    void SetLivesText()
+
     void SetCountText()
     {
         countText.text = "Count: " + count.ToString();
