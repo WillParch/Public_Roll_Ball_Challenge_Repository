@@ -39,6 +39,10 @@ public class PlayerController : MonoBehaviour
     void SetLivesText() 
     {
         livesText.text = "Lives: " + lives.ToString();
+        if (livesText <= 0) 
+        {
+
+        }
     }
 
     void SetCountText()
