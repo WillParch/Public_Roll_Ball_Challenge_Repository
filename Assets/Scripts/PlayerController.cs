@@ -34,7 +34,10 @@ public class PlayerController : MonoBehaviour
         movementY = movementVector.y;
     }
 
-    void SetLivesText()
+    void SetLivesText() 
+    {
+        
+    }
 
     void SetCountText()
     {
