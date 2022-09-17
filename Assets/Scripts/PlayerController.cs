@@ -40,10 +40,10 @@ public class PlayerController : MonoBehaviour
         movementY = movementVector.y;
     }
 
-    void SetLivesText() 
+    void SetLivesText()
     {
         livesText.text = "Lives: " + lives.ToString();
-        if (lives <= 0) 
+        if (lives <= 0)
         {
             loseTextObject.SetActive(true);
             Destroy(gameObject);

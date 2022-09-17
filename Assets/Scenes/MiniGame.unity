@@ -2476,6 +2476,7 @@ MonoBehaviour:
   countText: {fileID: 1626734162}
   livesText: {fileID: 2023552149}
   winTextObject: {fileID: 1995844145}
+  loseTextObject: {fileID: 220012002}
 --- !u!4 &1694630716 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2038359894918150529, guid: e5513f88b48969446860439373220ac2, type: 3}
