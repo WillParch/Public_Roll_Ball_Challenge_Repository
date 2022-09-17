@@ -80,9 +80,10 @@ public class PlayerController : MonoBehaviour
         {
             other.gameObject.SetActive(false);
             lives = lives - 1;
+
             SetLivesText();
         }
-        if (count == 12)
+        else if (count == 12)
         {
             transform.position = new Vector3(50.0f, 0.0f, 50.0f);
         }
