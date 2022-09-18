@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Rotator : MonoBehaviour
 // Transforms to act as start and end markers for the journey.
+{
 public Transform startMarker;
 public Transform endMarker;
 
@@ -17,17 +18,17 @@ private float startTime;
 private float journeyLength;
 
 void Start()
-{
+    {
     // Keep a note of the time the movement started.
     startTime = Time.time;
 
     // Calculate the journey length.
     journeyLength = Vector3.Distance(startMarker.position, endMarker.position);
-}
+    }
 
 // Follows the target position like with a spring
 void Update()
-{
+    {
     // Distance moved = time * speed.
     float distCovered = (Time.time - startTime) * speed;
 
@@ -36,4 +37,5 @@ void Update()
 
     // Set our position as a fraction of the distance between the markers and pingpong the movement.
     transform.position = Vector3.Lerp(startMarker.position, endMarker.position, Mathf.PingPong(fracJourney, 1));
+    }
 }
